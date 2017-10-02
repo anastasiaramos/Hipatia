@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.0"  assembly="moleQule.Library.Hipatia">
+	<class name="moleQule.Library.Hipatia.Documento" schema="`0001`"  table="`HPDocument`" lazy="true">
+		<id name="Oid" column="`OID`" type="Int64" >
+			<generator class="sequence"><param name="sequence">"0001"."HPDocument_OID_seq"</param></generator>
+		</id>
+		<property column="`CODIGO`"  type="String" name="Codigo" not-null="false" length="255" />
+		<property column="`SERIAL`"  type="Int64" name="Serial"  />
+		<property column="`NOMBRE`"  type="String" name="Nombre" not-null="false" length="255" />
+    <property column="`TIPO`"  type="String" name="Tipo" not-null="false" length="255" />
+		<property column="`FECHA`"  type="DateTime" name="Fecha" not-null="false"  />
+		<property column="`FECHA_ALTA`"  type="DateTime" name="FechaAlta" not-null="false"  />
+		<property column="`RUTA`"  type="String" name="Ruta" not-null="false" length="32768" />
+		<property column="`OBSERVACIONES`"  type="String" name="Observaciones" not-null="false" length="32768" />
+	</class>
+</hibernate-mapping>

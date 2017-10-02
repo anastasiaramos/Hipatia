@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="moleQule.Library.Hipatia.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FTP_USER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">iQingenieros</Value>
+    </Setting>
+    <Setting Name="FTP_PWD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WEdfg6543</Value>
+    </Setting>
+    <Setting Name="FTP_HOST" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FTP_ROOT_PATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hipatia</Value>
+    </Setting>
+    <Setting Name="FTP_HOST_DEFAULT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="DB_VERSION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4.1.1.2</Value>
+    </Setting>
+    <Setting Name="DB_VERSION_VARIABLE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">HIPATIA_DB_VERSION</Value>
+    </Setting>
+    <Setting Name="NAME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">HIPATIA</Value>
+    </Setting>
+    <Setting Name="MODULE_VERSION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">4.0.0.0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

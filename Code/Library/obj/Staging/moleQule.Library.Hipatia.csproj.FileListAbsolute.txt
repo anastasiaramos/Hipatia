@@ -1,0 +1,17 @@
+C:\VS Projects Git\Hipatia\Code\Library\bin\moleQule.Library.Common.dll
+C:\VS Projects Git\Hipatia\Code\Library\bin\moleQule.Library.Hipatia.dll
+C:\VS Projects Git\Hipatia\Code\Library\bin\moleQule.Library.Common.pdb
+C:\VS Projects Git\Hipatia\Code\Library\bin\moleQule.Library.Hipatia.pdb
+C:\VS Projects Git\Hipatia\Code\Library\bin\en\moleQule.Library.Common.resources.dll
+C:\VS Projects Git\Hipatia\Code\Library\obj\Staging\moleQule.Library.Hipatia.csprojResolveAssemblyReference.cache
+C:\VS Projects Git\Hipatia\Code\Library\obj\Staging\moleQule.Library.Hipatia.Resources.Conf.resources
+C:\VS Projects Git\Hipatia\Code\Library\obj\Staging\moleQule.Library.Hipatia.Resources.Defaults.resources
+C:\VS Projects Git\Hipatia\Code\Library\obj\Staging\moleQule.Library.Hipatia.Resources.SecureItems.resources
+C:\VS Projects Git\Hipatia\Code\Library\obj\Staging\moleQule.Library.Hipatia.Resources.Enums.resources
+C:\VS Projects Git\Hipatia\Code\Library\obj\Staging\moleQule.Library.Hipatia.Resources.Messages.resources
+C:\VS Projects Git\Hipatia\Code\Library\obj\Staging\moleQule.Library.Hipatia.Resources.Paths.resources
+C:\VS Projects Git\Hipatia\Code\Library\obj\Staging\moleQule.Library.Hipatia.Properties.Resources.resources
+C:\VS Projects Git\Hipatia\Code\Library\obj\Staging\moleQule.Library.Hipatia.csproj.GenerateResource.Cache
+C:\VS Projects Git\Hipatia\Code\Library\obj\Staging\moleQule.Library.Hipatia.dll
+C:\VS Projects Git\Hipatia\Code\Library\obj\Staging\moleQule.Library.Hipatia.pdb
+C:\VS Projects Git\Hipatia\Code\Library\bin\moleQule.Library.Hipatia.dll.config

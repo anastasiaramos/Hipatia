@@ -1,0 +1,17 @@
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\bin\moleQule.Library.Common.dll
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\bin\moleQule.Library.Hipatia.dll
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\bin\moleQule.Library.Common.pdb
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\bin\moleQule.Library.Hipatia.pdb
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\bin\en\moleQule.Library.Common.resources.dll
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\obj\x86\Debug\moleQule.Library.Hipatia.Resources.Conf.resources
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\obj\x86\Debug\moleQule.Library.Hipatia.Resources.Defaults.resources
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\obj\x86\Debug\moleQule.Library.Hipatia.Resources.SecureItems.resources
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\obj\x86\Debug\moleQule.Library.Hipatia.Resources.Enums.resources
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\obj\x86\Debug\moleQule.Library.Hipatia.Resources.Messages.resources
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\obj\x86\Debug\moleQule.Library.Hipatia.Resources.Paths.resources
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\obj\x86\Debug\moleQule.Library.Hipatia.Properties.Resources.resources
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\obj\x86\Debug\moleQule.Library.Hipatia.csproj.GenerateResource.Cache
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\obj\x86\Debug\moleQule.Library.Hipatia.dll
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\obj\x86\Debug\moleQule.Library.Hipatia.pdb
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\bin\moleQule.Library.Hipatia.dll.config
+C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Library\obj\x86\Debug\moleQule.Library.Hipatia.csprojResolveAssemblyReference.cache

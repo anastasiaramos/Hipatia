@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project name="moleQule.Library.Hipatia">
+  <modules>
+    <module name="Agent" />
+    <module name="Document" />
+    <module name="DocumentType" />
+    <module name="Entity" />
+    <module name="EntityType" />
+  </modules>
+</project>

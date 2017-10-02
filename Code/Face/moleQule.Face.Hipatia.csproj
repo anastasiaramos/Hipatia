@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{90F88AE3-E1A5-4386-9B78-AF718298658C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>moleQule.Face.Hipatia</RootNamespace>
+    <AssemblyName>moleQule.Face.Hipatia</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <ApplicationIcon>cabinet.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>RELEASE;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>true</DebugSymbols>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Demo|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <DefineConstants>DEMO;</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Staging|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>STAGING;</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms">
+      <HintPath>c:\program files\sap businessobjects\crystal reports for .net framework 4.0\External Libs\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Csla, Version=2.0.3.0, Culture=neutral, PublicKeyToken=93be5fdc093e4c30, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\External Libs\Csla.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Infralution.Localization">
+      <HintPath>..\..\..\External Libs\Infralution.Localization\bin\Infralution.Localization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Face">
+      <HintPath>..\..\..\moleQule\moleQule.Face\bin\moleQule.Face.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\moleQule\moleQule.Library\bin\moleQule.Library.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Hipatia">
+      <HintPath>..\Library\bin\moleQule.Library.Hipatia.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\moleQule\packages\NHibernate.3.3.3.4001\lib\Net35\NHibernate.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Agentes\AgenteAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Agentes\AgenteAddForm.designer.cs">
+      <DependentUpon>AgenteAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Agentes\AgenteEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Agentes\AgenteEditForm.designer.cs">
+      <DependentUpon>AgenteEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Agentes\AgenteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Agentes\AgenteForm.designer.cs">
+      <DependentUpon>AgenteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Agentes\AgenteMngBaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Agentes\AgenteMngBaseForm.Designer.cs">
+      <DependentUpon>AgenteMngBaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Agentes\AgenteSelectBaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Agentes\AgenteSelectBaseForm.Designer.cs">
+      <DependentUpon>AgenteSelectBaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Agentes\AgenteUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Agentes\AgenteUIForm.designer.cs">
+      <DependentUpon>AgenteUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Agentes\AgenteViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Agentes\AgenteViewForm.designer.cs">
+      <DependentUpon>AgenteViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auxiliares\TipoDocumentoUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auxiliares\TipoDocumentoUIForm.Designer.cs">
+      <DependentUpon>TipoDocumentoUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Documentos\DocumentoMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Documentos\DocumentoMngForm.Designer.cs">
+      <DependentUpon>DocumentoMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Documentos\DocumentoNewInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Documentos\DocumentoNewInputForm.Designer.cs">
+      <DependentUpon>DocumentoNewInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Documentos\DocumentoSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Documentos\DocumentoSelectForm.Designer.cs">
+      <DependentUpon>DocumentoSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMng.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Agentes\AgenteEditForm.resx">
+      <DependentUpon>AgenteEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Agentes\AgenteForm.resx">
+      <DependentUpon>AgenteForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Agentes\AgenteMngBaseForm.resx">
+      <DependentUpon>AgenteMngBaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Agentes\AgenteSelectBaseForm.resx">
+      <DependentUpon>AgenteSelectBaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Agentes\AgenteUIForm.resx">
+      <DependentUpon>AgenteUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Agentes\AgenteViewForm.resx">
+      <DependentUpon>AgenteViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auxiliares\TipoDocumentoUIForm.resx">
+      <DependentUpon>TipoDocumentoUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Documentos\DocumentoMngForm.resx">
+      <DependentUpon>DocumentoMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Documentos\DocumentoNewInputForm.resx">
+      <DependentUpon>DocumentoNewInputForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Documentos\DocumentoSelectForm.resx">
+      <DependentUpon>DocumentoSelectForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Conf.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Conf.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Errors.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Errors.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Labels.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Labels.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Paths.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\Hipatia.Library.Agente.datasource" />
+    <None Include="Properties\DataSources\Hipatia.Library.AgenteInfo.datasource" />
+    <None Include="Properties\DataSources\Hipatia.Library.AgenteDocumento.datasource" />
+    <None Include="Properties\DataSources\Hipatia.Library.AgenteDocumentoInfo.datasource" />
+    <None Include="Properties\DataSources\Hipatia.Library.Documento.datasource" />
+    <None Include="Properties\DataSources\Hipatia.Library.DocumentoInfo.datasource" />
+    <None Include="Properties\DataSources\Hipatia.Library.Entidad.datasource" />
+    <None Include="Properties\DataSources\Hipatia.Library.EntidadInfo.datasource" />
+    <None Include="Properties\DataSources\Hipatia.Library.Tipodocumento.datasource" />
+    <None Include="Properties\DataSources\Hipatia.Library.TipodocumentoInfo.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resources\Conf.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Conf.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Errors.Designer.cs">
+      <DependentUpon>Errors.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Labels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Paths.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cabinet.ico" />
+    <None Include="Recursos\send_document.ico" />
+    <Content Include="Resources\Aceptar.ico" />
+    <Content Include="Resources\Actualizar.ico" />
+    <None Include="Resources\add_16.png" />
+    <Content Include="Resources\borrar_16.png" />
+    <Content Include="Resources\borrar_161.png" />
+    <Content Include="Resources\Cerrar.ico" />
+    <None Include="Resources\close_16.png" />
+    <Content Include="Resources\Delete2.ico" />
+    <None Include="Resources\delete_16.png" />
+    <Content Include="Resources\Derecha.ico" />
+    <None Include="Resources\edit_16.png" />
+    <None Include="Resources\duplicar_16.png" />
+    <Content Include="Resources\Emitir.ico" />
+    <Content Include="Resources\Empresas.ico" />
+    <None Include="Resources\find_16.png" />
+    <Content Include="Resources\folder.ico" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\folder_32.png" />
+    <None Include="Resources\folder_16.png" />
+    <Content Include="Resources\Imprimir.ico" />
+    <Content Include="Resources\Izquierda.ico" />
+    <Content Include="Resources\Liberar.ico" />
+    <Content Include="Resources\libro.ico" />
+    <None Include="Resources\loading.gif" />
+    <Content Include="Resources\login.ico" />
+    <None Include="Resources\mozilla_blu.gif" />
+    <Content Include="Resources\ordenar_16.png" />
+    <Content Include="Resources\ordenar_161.png" />
+    <Content Include="Resources\Print.ico" />
+    <None Include="Resources\print_16.png" />
+    <Content Include="Resources\target.ico" />
+    <Content Include="Resources\ver_16.png" />
+    <Content Include="Resources\ver_161.png" />
+    <Content Include="Resources\View.ico" />
+    <None Include="Resources\window_add.ico" />
+    <None Include="Resources\view_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

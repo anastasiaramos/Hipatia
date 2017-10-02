@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.0"  assembly="moleQule.Library.Hipatia">
+	<class name="moleQule.Library.Hipatia.TipoEntidad" schema="`COMMON`"  table="`HPEntityType`" lazy="true">
+		<id name="Oid" column="`OID`" type="Int64" >
+			<generator class="sequence"><param name="sequence">"COMMON"."HPEntityType_OID_seq"</param></generator>
+		</id>
+		<property column="`VALOR`"  type="String" name="Valor" not-null="false" length="255" />
+		<property column="`USER_CREATED`"  type="Boolean" name="UserCreated" not-null="false"  />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.0"  assembly="moleQule.Library.Hipatia">
+	<class name="moleQule.Library.Hipatia.Agente" schema="`0001`"  table="`HPAgent`" lazy="true">
+		<id name="Oid" column="`OID`" type="Int64" >
+			<generator class="sequence"><param name="sequence">"0001"."HPAgent_OID_seq"</param></generator>
+		</id>
+		<property column="`OID_ENTIDAD`"  type="Int64" name="OidEntidad" not-null="false" />
+		<property column="`OID_AGENTE_EXT`"  type="Int64" name="OidAgenteExt" not-null="false" />
+		<property column="`CODIGO`"  type="String" name="Codigo" not-null="false" length="255" />
+		<property column="`SERIAL`"  type="Int64" name="Serial" />
+		<property column="`NOMBRE`"  type="String" name="Nombre" not-null="false" length="255" />
+		<property column="`FECHA`"  type="DateTime" name="Fecha" not-null="false" />
+		<property column="`OBSERVACIONES`"  type="String" name="Observaciones" not-null="false" length="32768" />
+	</class>
+</hibernate-mapping>
