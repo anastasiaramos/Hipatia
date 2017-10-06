@@ -46,3 +46,27 @@ C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Face\obj\Release\moleQ
 C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.csproj.GenerateResource.Cache
 C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.dll
 C:\Users\Anastasia\Documents\VS Projects Git\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.pdb
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\bin\moleQule.Face.Hipatia.dll.config
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\bin\moleQule.Face.Hipatia.dll
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\bin\moleQule.Face.Hipatia.pdb
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.csprojResolveAssemblyReference.cache
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.AgenteEditForm.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.AgenteForm.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.AgenteMngBaseForm.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.AgenteSelectBaseForm.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.AgenteUIForm.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.AgenteViewForm.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.TipoDocumentoUIForm.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.DocumentoMngForm.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.DocumentoNewInputForm.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.DocumentoSelectForm.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.MainForm.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.Properties.Resources.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.Resources.Conf.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.Resources.Errors.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.Resources.Labels.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.Resources.Messages.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.Resources.Paths.resources
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.csproj.GenerateResource.Cache
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.dll
+C:\Users\Anastasia\Documents\Git Projects\Hipatia\Code\Face\obj\Release\moleQule.Face.Hipatia.pdb
